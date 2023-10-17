@@ -26,12 +26,12 @@ const IndexPage = ({ data }: any) => {
         />
         <meta name="twitter:image" content={vals.carts[0].products[0].total} />{" "}
       </Head>
+      <button onClick={shareViaTwitter}>Post Twitter</button>
       <div>
         {vals.carts.map((data: any) => (
           <h1 key={data.id}>{data.id}</h1>
         ))}
       </div>
-      <button onClick={shareViaTwitter}>Post Twitter</button>
     </>
   );
 };
