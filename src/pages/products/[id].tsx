@@ -20,7 +20,7 @@ const IndexPage = ({ data }: any) => {
       </Head>
       <div>
         {vals.carts.map((data: any) => (
-          <h1>{data.id}</h1>
+          <h1 key={data.id}>{data.id}</h1>
         ))}
       </div>
     </>
