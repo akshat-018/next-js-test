@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { useRouter } from "next/router";
-import { render } from "react-dom";
 import Link from "next/link";
 
 export default function Home() {
