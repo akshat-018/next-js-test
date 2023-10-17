@@ -7,7 +7,15 @@ const IndexPage = ({ data }: any) => {
   if (data.length === 0) {
     return <div>Loading...</div>;
   }
+  const shareViaTwitter = () => {
+    const postText = `🌟 Discover interesting content and connect with like-minded people on GetAI! Check out this post. 🌐 #getAiLife #DiscoverMore`;
 
+    const text = encodeURIComponent(postText);
+    window.open(
+      `https://twitter.com/intent/tweet?text=${text}&url=https://next-js-test-4hzu-q8pdnl6rw-akshat-018s-projects.vercel.app/products/1`,
+      "_blank"
+    );
+  };
   return (
     <>
       <Head>
@@ -23,6 +31,7 @@ const IndexPage = ({ data }: any) => {
           <h1 key={data.id}>{data.id}</h1>
         ))}
       </div>
+      <button onClick={shareViaTwitter}>Post Twitter</button>
     </>
   );
 };
