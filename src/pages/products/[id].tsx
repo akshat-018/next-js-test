@@ -19,6 +19,22 @@ const IndexPage = ({ data }: any) => {
   return (
     <>
       <Head>
+        <title>Get AI Life: Explore AI Tools, Connect, and Stay Informed</title>
+        <meta
+          name="title"
+          content="Get AI Life: Explore AI Tools, Connect, and Stay Informed"
+        />
+        <meta
+          name="keywords"
+          content="AI Tools, Artificial Intelligence, AI News, AI Research, Social Connect, AI Community, Explore AI, Learn AI"
+        />
+        <meta
+          property="og:description"
+          content="Welcome to Get AI Life, your go-to platform to explore a diverse range of AI tools, connect with like-minded enthusiasts, and stay up-to-date with the latest AI news and research. Discover innovative solutions, engage in meaningful conversations, and delve into the world of artificial intelligence with us!"
+        />
+        <meta property="og:image" content="1" />
+        <meta property="og:title" content="Get AI Life" />
+        <meta property="og:type" content="website"></meta>
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
