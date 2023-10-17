@@ -19,6 +19,11 @@ const IndexPage = ({ data }: any) => {
   return (
     <>
       <Head>
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://next-js-test-4hzu-q8pdnl6rw-akshat-018s-projects.vercel.app/products/1"
+        />
         <meta name="twitter:title" content={vals.carts[0].products[0].title} />
         <meta
           name="twitter:description"
